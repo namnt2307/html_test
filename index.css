@@ -1,65 +1,156 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+} 
 .top  {
     display: flex;
-    width: 100%px;
+    width: 100%;
     height: 150px;
-    background-color: rgb(58, 172, 224)
+    background-image: linear-gradient(to right, #3092f4, #00a9f7, #00bae0, #00c5b7, #28cc88)
 }
 .top-phai a{
     text-decoration: none;
 }
 .top-phai h2 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color:black;
     margin-left: 10px;
-    margin-top: 30px;
+    margin-top: 45px;
     font-size: large;
     transition: 0.3s;
 }
 .top-phai:hover h2 {
     color:white;
     margin-left: 10px;
-    margin-top: 30px;
+    margin-top: 35px;
     font-size: large;
 }
 img {
-    width: 130px;
+    width: 150px;
     margin-top: 10px;
     margin-left: 20px;
+    
 }
-.search-box {
-    background-color: rgb(207, 204, 204);
-    width: 1000px;
-    margin-top: 100px;
+.center {
+    height: 610px;
+}
+.center hr {
+    height:3.5px;
+    background-color: #3092f4;
+    width: 100%;
+    margin-left: 0px;
+}
+.thongtin {
+    margin-top: 50px;
     margin-left: 200px;
+    margin-right: 350px;
+    background-color: white;
+    box-shadow: 0 0 28px #31313180;
 }
+ .search-box {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-image: white;
+    display: block;
+    padding-left: 50px;
+    padding-top: 100px;
+    height: 550px;
+
 }
-.search-box hr {
-    width: 400px;
+.search-box span {
+    font-weight: bold;
+    font-size: small;
 }
-.bottom {
-    margin-top: 420px;
-    background-color: rgb(151, 221, 194);
+.search-box h2 {
+    color: #2980b9;
+    font-size: larger;
+    font-weight: bold;
+    font-style: italic;
 }
-.info {
-    margin-top: 200px;
-    height: 20px;
-}
-.info h3{
+ .inputinf {
+    width: 350px;
+    height: 30px;
     margin-left: 30px;
+    font-size: medium;
+    border: 1px solid #ddd;
+    border-top-color: rgb(221, 221, 221);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgb(221, 221, 221);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgb(221, 221, 221);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgb(221, 221, 221);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial; 
+    border-radius: 6vw;
+}
+
+.button {
+    height: 40px;
+    width: 130px;
+    background-color: #28cc88;
+    font-weight: bold;
+    color: white;
+    margin-left: 40px;
+    border: 1px solid #ddd;
+    border-top-color: rgb(221, 221, 221);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgb(221, 221, 221);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgb(221, 221, 221);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgb(221, 221, 221);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial; 
+    border-radius: 6vw;
+    box-shadow: 0 0 15px #31313180;
+}
+
+.bottom {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: small;
+    background-color: rgb(151, 221, 194);
+    height: 170px;
+}
+.bottom hr {
+    margin-top: 30px;
+    color: black;
+}
+
+.bottom h3{
+    margin-left: 35px;
+    display: block;
     height: 5px;
+    padding-top: 10px;
 }
 .bottom .contact {
     display: flex;
     margin-left: 35px;
     height: 35px;
+    padding-top: 20px;
 }
 .phone {
     display: flex;
     width: 150px;
     margin-left: 30px;
 }
-.phone i {
-    margin-top: 27px;   
-}
+
 .phone h4 {
     margin-left: 14px;
 }
@@ -69,16 +160,12 @@ img {
 .mail h4 {
     margin-left: 10px;
 }
-.mail i{
-    margin-top: 27px;
-}
+
 .address {
     width: 700px;
     display: flex;
     margin-left: 30px;
-}
-.address i {
-    margin-top: 27px;
+    padding-top: 20px;
 }
 .address h4 {
     margin-left: 10px;
