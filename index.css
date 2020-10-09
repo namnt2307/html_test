@@ -1,0 +1,85 @@
+.top  {
+    display: flex;
+    width: 100%px;
+    height: 150px;
+    background-color: rgb(58, 172, 224)
+}
+.top-phai a{
+    text-decoration: none;
+}
+.top-phai h2 {
+    color:black;
+    margin-left: 10px;
+    margin-top: 30px;
+    font-size: large;
+    transition: 0.3s;
+}
+.top-phai:hover h2 {
+    color:white;
+    margin-left: 10px;
+    margin-top: 30px;
+    font-size: large;
+}
+img {
+    width: 130px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.search-box {
+    background-color: rgb(207, 204, 204);
+    width: 1000px;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+}
+.search-box hr {
+    width: 400px;
+}
+.bottom {
+    margin-top: 420px;
+    background-color: rgb(151, 221, 194);
+}
+.info {
+    margin-top: 200px;
+    height: 20px;
+}
+.info h3{
+    margin-left: 30px;
+    height: 5px;
+}
+.bottom .contact {
+    display: flex;
+    margin-left: 35px;
+    height: 35px;
+}
+.phone {
+    display: flex;
+    width: 150px;
+    margin-left: 30px;
+}
+.phone i {
+    margin-top: 27px;   
+}
+.phone h4 {
+    margin-left: 14px;
+}
+.mail   {
+    display: flex;
+}
+.mail h4 {
+    margin-left: 10px;
+}
+.mail i{
+    margin-top: 27px;
+}
+.address {
+    width: 700px;
+    display: flex;
+    margin-left: 30px;
+}
+.address i {
+    margin-top: 27px;
+}
+.address h4 {
+    margin-left: 10px;
+}
