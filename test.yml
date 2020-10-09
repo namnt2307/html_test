@@ -1,0 +1,17 @@
+---
+- hosts: vm1
+  become: yes
+  become_user: root
+  tasks:
+    - name: pull image
+      docker_image:
+          name: namnguyen2307/index
+          source: pull
+    - name: run container
+      docker_container:
+        name: nginxtest
+        image: namnguyen2307/index
+        state: started
+        ports: 5000:80
+
+
