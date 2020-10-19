@@ -3,5 +3,3 @@
   tasks:
   - name: create deployment
     command: kubectl apply -f deploy-stagingk8s.yml
-  - name: port forward
-    command: kubectl port-forward service/staging-service 8888:80
