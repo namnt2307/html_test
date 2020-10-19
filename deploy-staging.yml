@@ -1,0 +1,7 @@
+---
+- hosts: local
+  tasks:
+  - name: create deployment
+    command: kubectl apply -f /home/nam/workspace/ansible/deploy-stagingk8s.yml
+  - name: port forward
+    command: kubectl port-forward service/staging-service 8888:80
