@@ -2,4 +2,4 @@
 - hosts: local
   tasks:
   - name: create deployment
-    command: kubectl apply -f deploy-stagingk8s.yml
+    command: kubectl apply -f deploy-stagingk8s.yml --namespace=staging
